@@ -11,7 +11,11 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         //Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+<<<<<<< HEAD
         Parent root = FXMLLoader.load(getClass().getResource("../views/MainView.fxml"));
+=======
+        Parent root = FXMLLoader.load(getClass().getResource("/views/MainView.fxml"));
+>>>>>>> a449937... BEnutzerverwaltung eingefügt
 
         primaryStage.setTitle("E-Learning");
 

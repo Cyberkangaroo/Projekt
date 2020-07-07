@@ -54,7 +54,19 @@ public class MainViewController {
     }
 
     public void goToEditPage(ActionEvent actionEvent) {
+<<<<<<< HEAD
 
+=======
+       try {
+          FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/views/User.fxml"));
+          Parent root1 = fxmlLoader.load();
+          Stage stage = new Stage();
+          stage.setScene(new Scene(root1));
+          stage.show();
+       } catch(Exception e) {
+          e.printStackTrace();
+       }
+>>>>>>> a449937... BEnutzerverwaltung eingefügt
 
     }
 

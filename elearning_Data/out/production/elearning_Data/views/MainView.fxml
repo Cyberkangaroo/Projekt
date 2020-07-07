@@ -15,7 +15,11 @@
                   <Button fx:id="btnStudent" layoutX="400.0" layoutY="90.0" mnemonicParsing="false" onAction="#goToStudentPage" prefHeight="35.0" prefWidth="360.0" stylesheets="@style.css" text="Studenten" />
                 <Button fx:id="btnCourse" layoutX="400.0" layoutY="180.0" mnemonicParsing="false" onAction="#goToCoursePage" prefHeight="35.0" prefWidth="360.0" text="Kurse" />
                   <Button fx:id="btnDashboard" layoutX="400.0" layoutY="270.0" mnemonicParsing="false" onAction="#goToDashboard" prefHeight="35.0" prefWidth="360.0" text="Hauptmenü" />
+<<<<<<< HEAD
                   <Button fx:id="btnEdit" layoutX="400.0" layoutY="360.0" mnemonicParsing="false" onAction="#goToEditPage" prefHeight="35.0" prefWidth="360.0" text="Bearbeiten" />
+=======
+                  <Button fx:id="btnEdit" layoutX="400.0" layoutY="360.0" mnemonicParsing="false" onAction="#goToEditPage" prefHeight="35.0" prefWidth="360.0" text="Profil bearbeiten" />
+>>>>>>> a449937... BEnutzerverwaltung eingefügt
                   <Button fx:id="btnLogout" layoutX="400.0" layoutY="450.0" mnemonicParsing="false" onAction="#goToLogout" prefHeight="32.0" prefWidth="367.0" text="Logout" />
                   <Button fx:id="btnExit" layoutX="400.0" layoutY="540.0" mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="360.0" text="Exit" />
                </children></AnchorPane>
